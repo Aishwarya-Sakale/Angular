@@ -1,0 +1,33 @@
+<div class="container-fluid">
+    <app-header></app-header>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 600px;">
+                <div class="card-header">
+                    <h5>{{empData.name}}</h5>
+                </div>
+                <div class="card-body bg-info">
+                     <h6>Mobile No : {{empData.phoneno}}</h6>
+                     <h6>Department : {{empData.department}}</h6>
+                     <h6>Status : {{empData.status}}</h6>
+                     <h6>Created Data : {{empData.createddtm}}</h6>
+                     <h6>Created By : {{empData.createdby}}</h6>
+                     <h6>Updated Date : {{empData.updateddtm}}</h6>
+                     <h6>Updated By : {{empData.updatedby}}</h6>
+                     <h6>Country : {{empData.country.cname}}</h6>
+                </div>
+
+                <div class="card-footer bg-secondary">
+                    <button routerLink="" class="btn btn-warning">Home</button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
